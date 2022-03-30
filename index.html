@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/img/calculathor-icon-tab.png">
+    <title>CalculaThor</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div class="block">
+        <span>Mohon maaf, layar anda tidak mendukung untuk aplikasi ini.</span>
+    </div>
+    <div class="splash">
+        <div class="center">
+            <div class="btn-menu">
+                <button class="count">Hitung</button>
+                <button id="info" class="info">Tentang</button>
+            </div>
+        </div>
+    </div>
+    <div id="modal-info" class="modal-info">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h1>Tentang Aplikasi</h1>
+            </div>
+            <div class="modal-body">
+                <p>Aplikasi kalkulator berbasis website ini dibuat sebagai tugas akhir di Digital Talent Scholarship - FrontEnd yang dibimbing oleh mentor dari Progate.</p>
+                <p>Aplikasi CalculaThor menggunakan HTML, CSS dan JavaScript. Untuk referensi gambar/icon dan lain-lain saya lampirkan di folder referensi.</p>
+                <h3>Terima kasih,<br>Noval Fazriansyah</h3>
+            </div>
+            <div class="modal-footer">
+                <h3>CalculaThor</h3>
+            </div>
+        </div>
+    </div>
+    <div class="calculator">
+        <div class="body-calculator">
+            <div class="screen">
+                <input type="text" class="calculator-screen" value="0" disabled />
+            </div>
+            <!-- <div class="output">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div> -->
+            <div class="calculator-keys">
+                <button class="all-clear">AC</button>
+                <button class="delete">Del</button>
+                <button class="percentage" value="%">%</button>
+                <button class="operator" value="/">&divide;</button>
+                <button class="number" value="7">7</button>
+                <button class="number" value="8">8</button>
+                <button class="number" value="9">9</button>
+                <button class="operator" value="*">&times;</button>
+                <button class="number" value="4">4</button>
+                <button class="number" value="5">5</button>
+                <button class="number" value="6">6</button>
+                <button class="operator" value="+">+</button>
+                <button class="number" value="1">1</button>
+                <button class="number" value="2">2</button>
+                <button class="number" value="3">3</button>
+                <button class="operator" value="-">-</button>
+                <button class="number span-btn" value="0">0</button>
+                <button class="decimal" value=".">.</button>
+                <button class="equals"></button>
+            </div>
+        </div>
+        <button id="back" class="back">Kembali</button>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
