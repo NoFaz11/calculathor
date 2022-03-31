@@ -20,6 +20,37 @@
     .calculator {
         padding-top: 25px;
     }
+    
+    .all-clear, .delete, .percentage,
+    .operator, .decimal {
+        background-color: #83161d;
+        color: #aeaba9;
+        font-size: 30px;
+        border-radius: 50%;
+        box-shadow: 3px 3px 5px #1a161a;
+    }
+
+    .number {
+        background-color: #83161d;
+        color: #aeaba9;
+        font-size: 30px;
+        border-radius: 7px;
+        box-shadow: 3px 3px 5px #1a161a;
+    }
+
+    .all-clear:hover, .delete:hover, .percentage:hover,
+    .operator:hover, .decimal:hover, .number:hover,
+    .number-span-btn:hover {
+        background-color: #83161d;
+        color: #aeaba9;
+    }
+    
+    .all-clear:active, .delete:active, .percentage:active,
+    .operator:active, .decimal:active, .number:active,
+    .number-span-btn:active {
+        background-color: #aeaba9;
+        color: #83161d;
+    }
 
     .back {
         margin: 25px 0;
