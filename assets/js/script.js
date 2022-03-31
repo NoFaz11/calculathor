@@ -113,7 +113,7 @@ const calculate = () => {
             result = parseFloat(prevNumber) / parseFloat(currentNumber);
             break;
         default:
-            break;
+            return;
     }
     currentNumber = result;
     calculationOperator = '';
